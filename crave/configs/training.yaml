@@ -1,0 +1,12 @@
+seeds: [17, 29, 43]
+k: 3
+k_development_candidates: [3, 5, 8]
+epochs: 100
+learning_rate: 0.001
+batch_size: 64
+optimizer: Adam
+weights: {cost: 0.25, cal: 0.25, rank: 0.25, interaction: 0.25}
+mu0: {THINK: 0.35, RETRIEVE: 0.35, VERIFY: 0.20, STOP: 0.10}
+epsilon: 0.3
+continuation_policy: mu0-v1_fixed_across_label_rounds
+interaction_pairs: [[RETRIEVE, THINK], [THINK, VERIFY]]

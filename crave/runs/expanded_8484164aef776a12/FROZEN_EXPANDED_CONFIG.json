@@ -1,0 +1,47 @@
+{
+  "config": {
+    "status": "POST_PILOT_EXPANDED_HELDOUT_NOT_FINAL_STUDY",
+    "parent_config_hash": "bdd2b8a990571bb1a262e7b42d929bdec057bea80242161b27ca811accd88040",
+    "framework_source_hash": "b2342343149286617236b081b6a947bda53d72cfff26112c8db25f514e6eb27e",
+    "extension_script_hash": "af98b3badee0fe206ed078966730f9d09d72528c9be0a7abeb150d2991189574",
+    "prepared_hash": "16333757e7d50540d3452b766ab8227fa3b214cc3a550c6deaedfb2bb89b91ff",
+    "tasks_hash": "93832b197b5e43af38b301707f531e9d3ca3d4bec900bbe4a24d9820de9873a8",
+    "corpus_hash": "cc2b1aee738fb3c70d6591cf7535d056a0b60a02363af3c0e0bec6c9dd25bbcd",
+    "n_tasks_per_dataset": 20,
+    "n_documents": 687,
+    "selection_seed": 20261005,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "methods": [
+      "CRAVE",
+      "confidence",
+      "fixed",
+      "llm_router"
+    ],
+    "budget": {
+      "tokens": 512,
+      "retrievals": 1,
+      "verifications": 1,
+      "latency": null
+    },
+    "utility_lambda": 0.1,
+    "confidence_threshold": 0.8,
+    "controller_checkpoints": {
+      "17": "9defdb47558904edee6fb0ab2ae75d8c746493accd1bd054071fd1d3b3f4f082",
+      "29": "5be91bf6066c48637177def322b6d3cb98f38c93d55ce6fb9fce070fc5a883f4",
+      "43": "f458b7ab5ac8ffd8b8801d97e743531f11c1bd590efb58e48b55283a50a853e1"
+    },
+    "retraining": false,
+    "development_tuning": false,
+    "method_change_from_pilot": false,
+    "corpus_change": "Expanded common transductive passage pool",
+    "bootstrap_resamples": 10000,
+    "paired_permutation_draws": 10000,
+    "statistical_family": "2 datasets x 3 comparators x (EM, output tokens, normalized cost); Holm 18 tests",
+    "cache_rule": "Cached requests retain observed generation latency; no cold latency claim"
+  },
+  "sha256": "8484164aef776a1227cd80dc6b92903e7da77e245361206a83dc2548386dcbea"
+}

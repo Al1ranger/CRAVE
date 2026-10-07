@@ -1,0 +1,4 @@
+enabled_pilot: [fixed, confidence, llm_router, myopic]
+faithful_official_pending: [TARG, PUMA, CAS, DeepControl, Budget_Control, CATS, ATLAS, CoBRA, LIMBO]
+optional_proxy: [PUMA_like_summary_cosine]
+oracle: offline_reference_only

@@ -1,0 +1,11 @@
+{
+  "physical_model_requests_this_invocation": 668,
+  "physical_generated_tokens_this_invocation": 32184,
+  "physical_generation_seconds_this_invocation": 1182.3553409995802,
+  "total_invocation_seconds": 1619.2748973999987,
+  "logical_inference_tokens": 20941,
+  "logical_input_tokens": 460184,
+  "logical_offline_branch_generated_tokens": 19266,
+  "cache_latency_rule": "Cached requests retain original observed generation latency; cold end-to-end latency benchmark NOT RUN.",
+  "monetary_cost": null
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "critical_errors": [],
+  "episodes": 480,
+  "new_tasks": 40,
+  "seeds": 3,
+  "methods": 4,
+  "budget_violations": 0,
+  "answer_scores_recomputed": true,
+  "counter_accounting_checked": true,
+  "original_framework_hash_match": true,
+  "training_and_prior_evaluation_disjoint": true,
+  "controller_retrained": false,
+  "status": "POST_PILOT_EXPANDED_HELDOUT_NOT_FINAL_STUDY"
+}

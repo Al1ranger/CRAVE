@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+*.pid
+*.part
+.env
+.env.*
+crave/models_data/
+crave/runtime/
+crave/data/
+crave/runs/generation_cache/
+crave/runs/encoder_cache/
+tmp/full_manuscript_render/

@@ -1,0 +1,9 @@
+training_grid:
+  tokens: [512, 1024, 2048, 4096]
+  retrievals: [0, 1, 2, 4]
+  verifications: [0, 1, 2]
+pilot_budgets:
+  - {tokens: 512, retrievals: 1, verifications: 1, latency: null}
+  - {tokens: 1024, retrievals: 2, verifications: 1, latency: null}
+latency: measured_only
+hard_tokens: generated_output_including_router

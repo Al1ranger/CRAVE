@@ -1,0 +1,9 @@
+{
+  "physical_requests_this_invocation": 1185,
+  "physical_output_tokens_this_invocation": 47275,
+  "physical_generation_seconds_this_invocation": 2707.1858833003207,
+  "invocation_seconds": 2775.9080247000093,
+  "logical_evaluation_output_tokens": 65916,
+  "logical_evaluation_input_tokens": 1499369,
+  "cache_rule": "Cached requests retain observed generation latency; no cold latency claim"
+}

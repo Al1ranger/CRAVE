@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "errors": [],
+  "matched_branch_records": 156,
+  "observational_records": 111,
+  "training_state_counts_by_round": [
+    8,
+    7
+  ],
+  "evaluated_tasks": 6,
+  "evaluated_episodes": 162,
+  "source_hash_matches": true,
+  "continuation_policy_counts": {
+    "mu0-v1": 156
+  },
+  "checks": [
+    "configuration/stage/source/task/corpus checksums",
+    "identical branch payloads",
+    "training-only labels",
+    "private-label whitelist",
+    "fixed continuation regime",
+    "resource bounds",
+    "duplicate rows",
+    "held-out score recomputation",
+    "token accounting",
+    "oracle split isolation"
+  ],
+  "limits": "Pilot implementation audit; does not certify full study, baseline fidelity, population effects, cold latency or official raw-export equivalence."
+}

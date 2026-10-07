@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "episodes": 480,
+  "new_task_clusters": 40,
+  "clusters_per_dataset": 20,
+  "complete_pairs_and_seeds": true,
+  "configuration_and_source_hashes_match": true,
+  "frozen_controller_hashes_match": true,
+  "original_partitions_disjoint": true,
+  "corpus_and_task_hashes_match": true,
+  "raw_episode_matches": 480,
+  "scores_recomputed": 480,
+  "resource_and_token_counters_reconciled": 480,
+  "summary_means_and_intervals_recomputed": 32,
+  "critical_errors": [],
+  "scope": "Independent checks of this post-pilot test; does not certify full benchmark equivalence or broad superiority"
+}

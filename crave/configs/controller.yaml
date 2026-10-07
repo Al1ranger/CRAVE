@@ -1,0 +1,5 @@
+encoder: sentence-transformers/all-MiniLM-L6-v2
+encoder_backend: CPU_ONNX
+hidden: [512, 256]
+selection: deterministic_masked_argmax
+interaction: auxiliary_shared_trunk_only

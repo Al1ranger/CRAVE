@@ -1,0 +1,3 @@
+enabled_pilot: [-CF, -RTG, -Interaction, -Budget]
+additional_supported_features: [-Confidence, -Convergence, -Evidence, -Verify, -Search, -Pairwise, -Calibration]
+unimplemented: [shuffled_cost]

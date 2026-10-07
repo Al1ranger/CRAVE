@@ -1,0 +1,13 @@
+status: pilot_only
+train_tasks: 4
+development_tasks: 6
+evaluation_tasks: 25
+checkpoint_states_per_task: 2
+interaction_states_per_round: 2
+bootstrap_resamples: 10000
+max_steps: 12
+think_tokens: 256
+verify_tokens: 192
+dev_threshold: 0.8
+confidence_calibration: NOT_FITTED_smoke_uses_raw_verbalized_confidence
+final_test_gate: requires_full_dataset_corpus_pilot_tuning_and_preregistration_freeze

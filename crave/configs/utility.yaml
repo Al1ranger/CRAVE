@@ -1,0 +1,4 @@
+lambdas: [0.0, 0.05, 0.10, 0.25, 0.50, 1.0]
+references: [4096, 4, 2, 60]
+include_latency_in_scalar_utility: true
+reward: official_answer_EM

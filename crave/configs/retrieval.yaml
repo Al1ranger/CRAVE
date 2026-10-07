@@ -1,0 +1,8 @@
+method: BM25_plus_MiniLM_dense_RRF
+rrf_offset: 60
+top_k: 5
+context_tokens_per_document: 280
+total_context_cap: 1400
+pilot_corpus: frozen_pooled_benchmark_contexts
+primary_corpus: frozen_Wikipedia_snapshot_NOT_PREPARED
+reranker: disabled
