@@ -1,0 +1,2 @@
+# Preserve the exact artifact bytes used by SHA256 provenance checks.
+* -text

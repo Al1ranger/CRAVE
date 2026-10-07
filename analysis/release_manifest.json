@@ -1,5 +1,6 @@
 {
   "files": {
+    ".gitattributes": "c8af63fe904f6332ef7be4eff98ddfb812d3e14ac5065c103ddf940c9bfcfe73",
     ".gitignore": "ad4294fc12192635091830d006d7ccd8c8d9371e645dc9cdad4a72ee541b4063",
     "analysis/verify_release.py": "af3900b312c5a5ab83cab5bd6529d57d07bf9d38501c58edef257dea9895ab67",
     "crave/__init__.py": "b728a36c9d934753c2c4f32711e5aba0e92ca49cf8b7e7b71da0e93a72aba420",
@@ -99,5 +100,5 @@
     "tmp/scientific_manuscript_section.py": "1ae8dd99d330c3cb71cb6283cd42af051161eec42e629b04566f019207cdb02b"
   },
   "excluded_raw_benchmark_text": true,
-  "total_bytes": 14182925
+  "total_bytes": 14183003
 }
