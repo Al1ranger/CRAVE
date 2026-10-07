@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "deletion_estimates": 80,
+  "ranges": {
+    "HotpotQA": {
+      "exact_match": [
+        0.0,
+        5.2631578947368425
+      ],
+      "generated_tokens": [
+        174.75438596491227,
+        187.7017543859649
+      ]
+    },
+    "2WikiMultiHopQA": {
+      "exact_match": [
+        -3.5087719298245617,
+        0.0
+      ],
+      "generated_tokens": [
+        186.35087719298244,
+        195.4035087719298
+      ]
+    }
+  }
+}

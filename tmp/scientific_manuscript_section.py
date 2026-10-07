@@ -27,7 +27,7 @@ def add_related(p,h):
 
 def add_method(p,figure):
     p('Figure 1 separates offline supervision from online action selection. Gold answers enter only the offline scoring path. Deployment uses public state features, learned action values, and the hard feasibility mask; auxiliary interaction heads provide training supervision rather than additional utility bonuses.')
-    figure(ASSETS/'method_workflow.png',5.75,'Figure 1  CRAVE training and deployment. Eligible actions share the saved state and matched continuation seeds. Offline outcomes supervise the controller. Deployment uses a frozen backbone and encoder with a hard feasibility mask. This is an algorithm schematic.')
+    figure(ASSETS/'method_workflow.png',5.75,'Figure 1  CRAVE training and deployment. Eligible actions share the saved state and matched continuation seeds. Offline outcomes supervise the controller. Deployment uses a frozen backbone and encoder with a hard feasibility mask. OpenAI Codex assisted the Matplotlib drawing code; authoring-version limitations are stated in Section 6.5.')
 
 def add_analyses(p,h,figure):
     with open(ASSETS/'action_usage.csv',encoding='utf-8') as f:actions=list(csv.DictReader(f))

@@ -19,7 +19,9 @@ No observed efficiency advantage over confidence was established. Paired accurac
 
 ![Paired effect intervals](tmp/full_manuscript_assets/paired_effect_intervals.png)
 
-Six figures cover the workflow, task-level quality and cost, per-question paired costs, action frequencies, cost components, and paired effect intervals. PNG and vector PDF versions are included.
+Seven figures cover the workflow, task-level quality and cost, per-question paired costs, action frequencies, cost components, paired effect intervals, and sensitivity to individual questions. PNG and vector PDF versions are included.
+
+The comprehensive local audit recomputed 642 answer-score and episode-counter records, 296 summary metrics with intervals, 46 paired comparisons, 192 branch payloads, 1080 model predictions, 90 diagnostic cells, and 22 retrieval-support records. Its machine-readable report is in `tmp/full_manuscript_assets/comprehensive_result_audit.json`. Model predictions matched within a maximum absolute float32 discrepancy of 2.384e-7. This reconstructs retained outputs; stochastic language-model generation was not rerun.
 
 ## Install and verify
 
@@ -34,13 +36,14 @@ python -m unittest discover -s crave/tests -v
 python analysis/verify_release.py
 ```
 
-The verifier checks source and configuration hashes, numerical episode checksums, checkpoint hashes, task-seed-method pairing, budget bounds, action counters, cost components, and summary means. Full answer-score and state-restoration audits require the retained raw local records; saved original audit reports describe those checks and their limits.
+The verifier checks source and configuration hashes, numerical episode checksums, checkpoint hashes, task-seed-method pairing, budget bounds, action counters, cost components, summary means and intervals, paired estimates and intervals, raw permutation probabilities, and Holm corrections. Full answer-score and state-restoration audits require retained raw local records. With those records and encoder assets, `python tmp/audit_all_results.py` reconstructs the comprehensive audit.
 
 ## Rebuild figures and Word source
 
 ```sh
 python tmp/expanded_figures.py
 python tmp/scientific_figures.py
+python tmp/journal_revision.py
 python tmp/build_full_manuscript.py
 ```
 
@@ -71,4 +74,4 @@ New inference produces a new configuration identity and does not establish exact
 
 Published episode JSON and per-instance CSV omit answer text, questions, summaries, prompts, and benchmark passages. JSON identifies this transformation and carries a separate numerical-data checksum. Raw dataset exports, downloaded papers, unrelated files, inference caches, environments, pretrained models, and vendor binaries are excluded. Upstream datasets and models retain their licenses; the unresolved raw 2Wiki export license is not treated as permission to redistribute passages. No software license grant has been selected.
 
-Authors and affiliations remain to be supplied. Audit success establishes correspondence to the executed protocol, not completion of the broader research study.
+Authors and affiliations remain to be supplied. Audit success establishes correspondence to the executed protocol, not completion of the broader research study. The journal revision strengthens the method and diagnostic interpretation; four training questions and a post-pilot 40-question test do not establish broad superiority or certify readiness for a Q1 journal. See [submission readiness](manuscript/SUBMISSION_READINESS.md).

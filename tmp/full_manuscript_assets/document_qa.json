@@ -1,14 +1,15 @@
 {
   "passed": true,
   "tables": 10,
-  "figures": 6,
+  "figures": 7,
   "references": 26,
   "editable_equations": 8,
   "main_table_values_match_frozen_csv": true,
   "captions_share_table_pages": true,
   "expanded_test_tasks": 40,
   "expanded_episodes": 480,
-  "pages": 20,
-  "words_including_tables": 8800,
-  "bytes": 700843
+  "comprehensive_audit": true,
+  "pages": 23,
+  "words_including_tables": 9717,
+  "bytes": 799061
 }

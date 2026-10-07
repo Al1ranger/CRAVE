@@ -43,7 +43,7 @@ box(5.6,1.0,1.8,1.05,'512 → 256 MLP\nQ, success, cost\nInteraction heads',colo
 box(8.0,1.0,1.8,1.05,'Feasibility mask\nEligible Q argmax\nExecute action')
 for a,b in [((2.36,1.52),(2.9,1.52)),((5.0,1.52),(5.55,1.52)),((7.45,1.52),(7.95,1.52))]:arrow(a,b)
 arrow((8.65,3.9),(6.5,2.1))
-ax.text(7.6,3.0,'Supervised learning',fontsize=8,ha='center')
+ax.text(8.95,3.0,'Supervised learning',fontsize=8,ha='center')
 ax.plot([8.9,8.9,1.22,1.22],[.95,.5,.5,.95],color='#34495E',lw=.9)
 arrow((1.22,.5),(1.22,.95))
 ax.text(5.0,.08,'Update public state and remaining resources until STOP',ha='center',fontsize=8.5)

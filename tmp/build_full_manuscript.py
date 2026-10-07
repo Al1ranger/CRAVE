@@ -31,6 +31,7 @@ methods=['CRAVE','confidence','fixed','llm_router','-CF','-RTG','-Interaction','
 names={'confidence':'Confidence rule','fixed':'Fixed schedule','llm_router':'LLM router','myopic':'Myopic alias'}
 from expanded_manuscript_section import rewrite as expanded_rewrite,add_results as add_expanded_results
 from scientific_manuscript_section import EXTRA_REFS,add_related,add_method,add_analyses
+from journal_revision import rewrite as journal_rewrite,add_contributions,add_guarantees,add_influence,add_audit,add_interpretation
 def n(row,key):return float(row[key])
 def fmt(row,key,digits=1):return f'{n(row,key):.{digits}f}'
 def interval(row,key,digits=1,scale=1):
@@ -101,12 +102,14 @@ doc.core_properties.author=''
 doc.core_properties.keywords='CRAVE; inference control; counterfactual branching; multi-hop question answering; pilot study'
 
 def p(text,style=None):
-    text=expanded_rewrite(text)
+    text=journal_rewrite(expanded_rewrite(text))
     v=doc.add_paragraph(text,style);v.alignment=WD_ALIGN_PARAGRAPH.JUSTIFY if style is None else WD_ALIGN_PARAGRAPH.LEFT
     return v
 def h(text,level=1):
     text=re.sub(r'^(\d+) (\d+) ',r'\1.\2 ',text)
-    doc.add_heading(text,level=level)
+    heading=doc.add_heading(text,level=level)
+    if text in ['References','Appendix A Executable procedure']:
+        heading.paragraph_format.page_break_before=True
 def math_run(text,upright=False):
     run=OxmlElement('m:r')
     if upright:
@@ -202,6 +205,7 @@ p('The specific question studied here is whether a small controller can learn a 
 p('CRAVE addresses these issues with controlled interventions within a fixed executor. For each recorded state, we restore the same state, force an eligible action, and execute a shared continuation policy. The resulting action values refer to that continuation policy and that executor. They are not policy-invariant causal effects or guaranteed values under the deployed controller. This distinction is central to the method and to the interpretation of its results.')
 p('This manuscript presents the formulation, implementation, training objectives, and observed results of a bounded pilot. The completed experiment is deliberately small: four training tasks and six evaluation tasks. Its purpose is to establish that matched branching, learning, evaluation, and audit can run coherently on a local machine. Its main empirical finding is negative for efficiency: CRAVE matched the confidence baseline on answer accuracy and spent more generated tokens. The report retains this result rather than extrapolating favorable claims from the method design.')
 
+add_contributions(p,h)
 h('2 Related work')
 h('2 1 Budget control and stopping',2)
 p('BudgetThinker introduces control tokens and training procedures that make reasoning responsive to token limits [3]. PUMA identifies redundant reasoning and verifies proposed exits [4]. CAS uses calibrated confidence to allocate additional samples [5]. Their action families and supervision differ from CRAVE, but they constrain the novelty claim: reasoning length, answer readiness, and remaining budget are already useful allocation signals. The pilot confidence comparator is a fixed threshold rule over one candidate answer. It does not reproduce the calibration training and answer aggregation of CAS. Likewise, the implementation does not claim to reproduce the full PUMA protocol.')
@@ -247,6 +251,7 @@ eq('Iμ(s, a→b; λ) = Jμ(a→b) − Jμ(a) − Jμ(b) + Jμ(∅)',6)
 p('Jμ(z) denotes expected utility at the same state and utility weight after forcing the sequence z and then following μ. The empty sequence ∅ proceeds directly with μ without a forced action. Single-action J values coincide with the corresponding policy-conditioned Q values.')
 p('Only replicate indices shared by all four intervention families enter the contrast. An ordered pair that becomes infeasible is excluded for the affected sequence. These contrasts depend on the continuation regime and on feasibility; they are not additive decompositions of a trajectory reward. The controller uses them as auxiliary shared-trunk supervision. They are not added again to the selected Q value, because the single-action return-to-go already includes downstream consequences. Interaction supervision was limited to one selected checkpoint per collection round, so broad complementarity claims are untested.')
 
+add_guarantees(p,h)
 h('5 Controller architecture and optimization')
 h('5 1 Features and prediction heads',2)
 p('The frozen all-MiniLM-L6-v2 encoder supplies 384-dimensional masked-mean-pooled and L2-normalized vectors [14]. Four vectors encode the query, the last three public summaries, accumulated evidence, and the candidate together with verification text. Encoder inputs are truncated at 256 tokens. Thirteen scalar features represent normalized remaining token, retrieval, and verification budgets; raw verbalized confidence; semantic convergence; evidence sufficiency; retrieval novelty; normalized step; utility weight λ; and a four-way previous-action indicator. The resulting input dimension is 1549.')
@@ -285,6 +290,8 @@ p('Answer exact match and token F1 use normalized strings and available aliases.
 p('Results average the three seeds within each question before averaging questions. Bootstrap intervals resample task clusters with ten thousand draws. Paired tests operate on task-level differences and use exact sign permutations for these three-question dataset cells. Holm correction was applied across twenty-eight exploratory dataset, comparator, and metric comparisons. Seeds and episode rows are not treated as independent questions. With three task clusters per dataset, inferential resolution is extremely coarse.')
 p('Raw output, input, and total tokens; retrieval and verification calls; logical latency; controller latency; and normalized composite cost are recorded. Cached generation results retain their original observed model latency for logical accounting, while physical request counts record work actually performed. Encoder caching, slot behavior, and action overhead prevent these logical times from being interpreted as a standardized cold end-to-end latency benchmark.')
 
+h('6 5 AI assistance and analysis provenance',2)
+p('OpenAI Codex with a GPT-6 family model assisted implementation, verification scripts, literature synthesis, manuscript drafting, and Matplotlib plotting code. Empirical plots are computed from saved numerical records; no image-generation model supplied result values or research images. The method schematic is a programmatic drawing. Exact Codex application and model build identifiers were not pinned, which limits reconstruction of the authoring process. The scientific workflow remains executable through the released analysis scripts and saved outputs. Human authors must independently review the methods, references, interpretation, and final text before approving submission.')
 h('7 Results')
 h('7 1 Answer quality and generated output cost',2)
 p('Table 3 contains every executed method label at the single deployment setting. Each cell averages three seeds on three task clusters. CRAVE obtained exact match 0.3333 on HotpotQA and 0.6667 on 2Wiki. The confidence rule and fixed schedule obtained the same exact match. F1 equaled exact match for every method in this pilot. The LLM router returned no correct HotpotQA answers but matched the other retrieval policies on 2Wiki.')
@@ -339,11 +346,13 @@ p('Mean support-title recall was 77.3% on HotpotQA, 62.5% on MuSiQue, and 83.3% 
 
 add_expanded_results(p,h,caption,table,figure)
 add_analyses(p,h,figure)
+add_influence(p,h,figure)
 h('8 Audit and reproducibility')
 p('Seventeen core tests passed, including atomic resource accounting, randomized budget safety, restore isolation, corrupt-checkpoint rejection, matched branch seeds, private-label exclusion, split checks, normalized metrics, analytic gradient finite differences, loss reduction, and statistical routines. Fixtures were used only in tests; research results came from the verified Qwen checkpoint and real dataset records.')
 p('A separate audit recomputed configuration, source, stage, task, and corpus hashes; checked all 156 branch payloads and the 111 observational records; verified the fixed μ0 label regime; rejected duplicate records and private fields in inference states; recomputed held-out answers from gold records; reconciled output and total token counters; and checked token, retrieval, and verification bounds. It found no critical errors and zero budget violations in the 162 evaluation episodes.')
 p('Artifact checks establish that the reported outputs correspond to the implemented pilot. They do not certify dataset release equivalence, official baseline fidelity, population-level effects, cross-model robustness, or cold latency. The immutable pilot configuration and source hash should be retained with any extension; a new experiment requires a new configuration and an explicit report of changed data or executor semantics.')
 
+add_audit(p)
 h('9 Discussion and limitations')
 h('9 1 Interpreting the negative result',2)
 p('The most direct completed comparison is against the confidence rule. It achieved the same answer accuracy with fewer input and output tokens in both dataset cells. More sophisticated action valuation did not produce better resource allocation at this pilot scale. Four training questions, fifteen visited states, noisy three-replicate targets, raw confidence features, and a fixed continuation regime provide plausible mechanisms for limited learning, but this experiment does not identify which mechanism caused the inefficiency. Explaining it requires prespecified development analysis and a larger independent evaluation.')
@@ -356,7 +365,8 @@ p('Quantization, non-thinking mode, bounded public summaries, a single same-mode
 p('The learned values refer to μ0 continuation, whereas deployment uses the learned controller. This continuation mismatch is deliberate to preserve one label estimand across collection rounds, but it can limit policy improvement. Two rounds of changed visitation do not prove convergence. Ordered interaction targets use feasible common replicates and sparse checkpoint coverage; missing or ineligible pairs constrain what the auxiliary head can learn.')
 p('Latency includes measured action and controller overhead together with the cache convention. It is useful for tracing this execution but is not a strict service deadline or a standardized hardware comparison. Neither deployment amortization of offline labels nor net financial savings has been established. The physical cost of generating labels remains relevant even when a learned policy eventually reduces online cost.')
 
-h('10 Status of the broader study')
+add_interpretation(p,h)
+h('10 Requirements for broader evaluation')
 p('The broader design asks whether matched long-horizon values improve quality-cost frontiers, reduce regret compared with observational targets, capture delayed rewards, represent action complementarity, generalize to unseen budgets, and transfer across domains and backbones. Table 8 records the evidential status without treating successful execution as successful hypothesis confirmation.')
 caption('Table 8  Research hypotheses and remaining evidence')
 table(['Hypothesis','Status and required evidence'],[['H1 Quality and cost frontier','No efficiency gain over confidence at the tested point; full preference and budget frontier not run'],['H2 Counterfactual targets','Pilot diagnostics only; coverage-matched observational comparison and adequate task sample needed'],['H3 Delayed return','Immediate model performs poorly in task answers but well on three local oracle states; controlled delayed-benefit tasks needed'],['H4 Ordered interactions','Sparse auxiliary labels; no demonstrated gain; pair coverage and interaction analyses needed'],['H5 Unseen budgets','Not tested; one deployment budget executed'],['H6 Transfer','Three untrained-on 2Wiki tasks only; full domain and cross-family model studies not run']],[1.7,4.85])

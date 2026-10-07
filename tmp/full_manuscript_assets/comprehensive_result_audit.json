@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "counts": {
+    "answer_scores_and_episode_counters": 642,
+    "summary_metrics_with_intervals": 296,
+    "paired_comparisons": 46,
+    "branch_payloads_scores_and_seeds": 192,
+    "oracle_action_predictions": 1080,
+    "diagnostic_summary_cells": 90,
+    "retrieval_records": 22
+  },
+  "budget_violations": 0,
+  "framework_source_hash": "b2342343149286617236b081b6a947bda53d72cfff26112c8db25f514e6eb27e",
+  "limits": [
+    "Recomputes retained results; does not rerun stochastic language-model generation.",
+    "Normalized answer scoring verified against the implemented definition, not official benchmark evaluator equivalence.",
+    "Physical request counts and timings are retained invocation measurements; logical token totals were recomputed.",
+    "No population-level superiority, external validity, or journal acceptance is certified."
+  ],
+  "maximum_absolute_q_prediction_difference": 2.384185791015625e-07,
+  "float32_prediction_tolerance": 2e-06
+}
