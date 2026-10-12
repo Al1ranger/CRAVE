@@ -1,0 +1,13 @@
+{
+  "cpu": {
+    "Name": "AMD Ryzen 5 6600H with Radeon Graphics         ",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "memory": {
+    "TotalPhysicalMemory": 16312721408
+  },
+  "runtime": "llama.cpp b11146 Windows Vulkan; ONNX Runtime CPU encoder",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU, 546.92, 6144 MiB",
+  "captured_utc": "2026-10-12T07:18:20.8806483Z"
+}

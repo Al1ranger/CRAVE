@@ -2,7 +2,11 @@
 
 CRAVE learns policy-conditioned values for THINK, RETRIEVE, VERIFY, and STOP using matched interventions from identical saved states. A frozen encoder and a small multilayer perceptron predict utility, success, future resource costs, and auxiliary ordered interactions. A feasibility mask enforces output-token and tool limits.
 
-[Word manuscript](CRAVE_Full_Manuscript.docx) · [26 references](manuscript/REFERENCES.md)
+[Verified MIVE revision (Word)](MIVE_Verified_Manuscript.docx) · [35 references](manuscript/REFERENCES_MIVE.md) · [Revision and reviewer concern map](experiments/mive_revision/revision_summary.md) · [Numerical archive](MIVE_Verified_Revision_Archive.zip)
+
+The revised manuscript reports the observed legacy allocation failure and a fresh development audit of labeling versus deployment continuations. It separates continuation discrepancy from sampling noise and compares matched sampler seeds with independent seeds at equal branch budgets. Its primary and resource-priced analyses retain failed stability gates and null findings. See the [audit runbook](experiments/mive_revision/README.md), [experiment register](experiments/mive_revision/experiment_register.csv), and [unsupported claims](experiments/mive_revision/unsupported_claims.json). The 1.5B and 7B development checks test execution and accounting; they are not powered efficacy comparisons. The requested three-dataset scaled held-out study, published-method reproductions, and MIVE ablations remain incomplete.
+
+[Earlier CRAVE manuscript](CRAVE_Full_Manuscript.docx) · [Earlier reference list](manuscript/REFERENCES.md)
 
 ## Experimental evidence
 
@@ -15,7 +19,7 @@ Training used four questions. The original feasibility pilot evaluated six quest
 
 No observed efficiency advantage over confidence was established. Paired accuracy differences were not significant after Holm correction. Output-token cost increased consistently. Full-benchmark superiority, calibrated uncertainty, unseen-budget generalization, and cross-model transfer remain unestablished.
 
-![CRAVE workflow](tmp/full_manuscript_assets/method_workflow.png)
+![Independent continuation audit](experiments/mive_revision/figures/workflow.png)
 
 ![Paired effect intervals](tmp/full_manuscript_assets/paired_effect_intervals.png)
 
@@ -74,4 +78,4 @@ New inference produces a new configuration identity and does not establish exact
 
 Published episode JSON and per-instance CSV omit answer text, questions, summaries, prompts, and benchmark passages. JSON identifies this transformation and carries a separate numerical-data checksum. Raw dataset exports, downloaded papers, unrelated files, inference caches, environments, pretrained models, and vendor binaries are excluded. Upstream datasets and models retain their licenses; the unresolved raw 2Wiki export license is not treated as permission to redistribute passages. No software license grant has been selected.
 
-Authors and affiliations remain to be supplied. Audit success establishes correspondence to the executed protocol, not completion of the broader research study. The journal revision strengthens the method and diagnostic interpretation; four training questions and a post-pilot 40-question test do not establish broad superiority or certify readiness for a Q1 journal. See [submission readiness](manuscript/SUBMISSION_READINESS.md).
+Author information in the revision is retained from the supplied manuscript; funding and competing-interest declarations require author confirmation. No Zenodo DOI exists. Audit success establishes correspondence to the executed protocol, not completion of the broader research study. Four training questions and a post-pilot 40-question test do not establish broad superiority or certify readiness for a Q1 journal. See [submission readiness](manuscript/SUBMISSION_READINESS.md).

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "4ba13dec56af62f2e0071d8bd16fe6fa754a304c9516c10606f0656975e0b367",
+  "created_utc": "2026-10-12T08:16:58.251482+00:00",
+  "change": "Exact integer units of 1/40960 for unchanged secondary objective; means use integer sums before division",
+  "reason": "Avoid arithmetic-order artifacts in tied action ranks; raw outcomes and prices unchanged",
+  "scope": "analysis corrections after collection; raw outcomes unchanged",
+  "replicate_pairing": "Sort by replicate ID before matched-action contrasts; parallel journal order is not a pairing key"
+}

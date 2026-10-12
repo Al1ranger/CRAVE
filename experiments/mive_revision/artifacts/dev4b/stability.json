@@ -1,0 +1,362 @@
+[
+  {
+    "checkpoint": "5a85ea095542994775f606a8:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a85ea095542994775f606a8:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5adbf0a255429947ff17385a:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5adbf0a255429947ff17385a:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a8c7595554299585d9e36b6:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a8c7595554299585d9e36b6:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 0,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 0,
+    "precision_pass": 0,
+    "halfwidth_A": 1.4342175765653808,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__481349_302087:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__481349_302087:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__252311_366220:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__252311_366220:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__460946_294723:0",
+    "continuation": "mu",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__460946_294723:0",
+    "continuation": "pi",
+    "K": 3,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a85ea095542994775f606a8:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 0,
+    "precision_pass": 0,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.5552890210395598,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a85ea095542994775f606a8:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5adbf0a255429947ff17385a:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5adbf0a255429947ff17385a:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a8c7595554299585d9e36b6:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "5a8c7595554299585d9e36b6:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 0,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 0,
+    "precision_pass": 0,
+    "halfwidth_A": 0.5552890210395598,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__481349_302087:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__481349_302087:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__252311_366220:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__252311_366220:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__460946_294723:0",
+    "continuation": "mu",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  },
+  {
+    "checkpoint": "double__460946_294723:0",
+    "continuation": "pi",
+    "K": 5,
+    "argmax_agreement": 1,
+    "precision_pass": 1,
+    "halfwidth_A": 0.0,
+    "halfwidth_B": 0.0,
+    "note": "plug-in zero-variance intervals can be zero and do not certify rare-event precision"
+  }
+]

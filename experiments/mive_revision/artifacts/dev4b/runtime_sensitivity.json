@@ -1,0 +1,67 @@
+{
+  "mixed_runtime_checkpoints": [
+    "5a85ea095542994775f606a8:0"
+  ],
+  "reason": "execution-only amendment; no outcome-dependent filtering",
+  "limits": "Homogeneous-runtime sensitivity excludes mixed checkpoints, not their outcomes from the main reported audit.",
+  "analyses": {
+    "terminal_EM": {
+      "checkpoints": 8,
+      "statistics": {
+        "independent_gap_variance": {
+          "estimate": 0.004583333333333335,
+          "ci95": [
+            0.0,
+            0.012083333333333338
+          ],
+          "n_questions": 8
+        },
+        "matched_gap_variance": {
+          "estimate": 0.004583333333333334,
+          "ci95": [
+            0.0,
+            0.013750000000000002
+          ],
+          "n_questions": 8
+        },
+        "matched_minus_independent": {
+          "estimate": -4.336808689942018e-19,
+          "ci95": [
+            -0.0025000000000000005,
+            0.002499999999999999
+          ],
+          "n_questions": 8
+        }
+      }
+    },
+    "priced_value": {
+      "checkpoints": 8,
+      "statistics": {
+        "independent_gap_variance": {
+          "estimate": 0.004119926488896211,
+          "ci95": [
+            9.724543169140816e-05,
+            0.010506211539606253
+          ],
+          "n_questions": 8
+        },
+        "matched_gap_variance": {
+          "estimate": 0.004120185568680366,
+          "ci95": [
+            4.798681934674581e-05,
+            0.012234023812164863
+          ],
+          "n_questions": 8
+        },
+        "matched_minus_independent": {
+          "estimate": 2.5907978415451165e-07,
+          "ci95": [
+            -0.0025057541360457734,
+            0.0025570060283939024
+          ],
+          "n_questions": 8
+        }
+      }
+    }
+  }
+}

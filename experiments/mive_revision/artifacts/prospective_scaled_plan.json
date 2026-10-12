@@ -1,0 +1,53 @@
+{
+  "config": {
+    "status": "PROSPECTIVE_INCOMPLETE_NOT_A_HELDOUT_FREEZE",
+    "datasets": [
+      "HotpotQA",
+      "2WikiMultiHopQA",
+      "MuSiQue"
+    ],
+    "questions_per_dataset": 300,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "output_token_caps": [
+      256,
+      512,
+      1024
+    ],
+    "retrieval_cap": 1,
+    "verification_cap": 1,
+    "methods": [
+      "legacy",
+      "confidence",
+      "fixed",
+      "MIVE"
+    ],
+    "primary_episodes_required": 32400,
+    "NI_EM_margin": -0.01,
+    "savings_null": "output-token savings <= 0",
+    "quality_tests": 9,
+    "savings_tests": 9,
+    "multiplicity": "Holm within each nine-test family; success requires both adjusted rejections",
+    "power": "compute paired question-level dev variance after averaging three seeds; conservative alpha=.05/9, power .80",
+    "power_formula": "n=ceil((z_(1-alpha)+z_.80)^2*sigma_dev^2/(assumed_delta-margin)^2)",
+    "baseline_conditions": {
+      "Adaptive-RAG": "official classifier, corpus and generator matched; all classifier/retrieval tokens charged",
+      "FLARE": "official future-sentence confidence trigger; charge discarded drafts and retrievals"
+    },
+    "required_before_heldout": [
+      "official-release identity and alias mapping",
+      "train/dev/heldout IDs with component overlap audit",
+      "development reward-variance gate",
+      "K stability rule",
+      "dev baseline quality gate",
+      "dev-trained MIVE checkpoints",
+      "frozen thresholds, penalties, prices, K and model-specific prompts",
+      "dev-only power analysis"
+    ],
+    "heldout_inference_permitted": false
+  },
+  "sha256": "7a306627dadb303db2e59050202c934abad60908586d7b4cb13d22455964abb5"
+}

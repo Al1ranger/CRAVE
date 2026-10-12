@@ -1,0 +1,90 @@
+{
+  "signed_THINK_bias": {
+    "estimate": -0.06101996527777777,
+    "ci95": [
+      -0.10787153455946179,
+      -0.028111979166666665
+    ],
+    "n_questions": 9
+  },
+  "absolute_discrepancy": {
+    "estimate": 0.030905151367187498,
+    "ci95": [
+      0.021644804212782122,
+      0.04276002163357203
+    ],
+    "n_questions": 9
+  },
+  "argmax_change": {
+    "estimate": 0.3333333333333333,
+    "ci95": [
+      0.1111111111111111,
+      0.6666666666666666
+    ],
+    "n_questions": 9
+  },
+  "kendall_tau_b": {
+    "estimate": 0.7645617656487222,
+    "ci95": [
+      0.579376580463537,
+      0.925925925925926
+    ],
+    "n_questions": 9
+  },
+  "THINK_STOP_rank_reversal": {
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 9
+  },
+  "THINK_any_action_rank_reversal": {
+    "estimate": 0.4444444444444444,
+    "ci95": [
+      0.1111111111111111,
+      0.7777777777777778
+    ],
+    "n_questions": 9
+  },
+  "observed_squared_discrepancy": {
+    "estimate": 0.002484769176608985,
+    "ci95": [
+      0.0008201371608508958,
+      0.005341437798556351
+    ],
+    "n_questions": 9
+  },
+  "estimated_noise": {
+    "estimate": 0.0016856306415465136,
+    "ci95": [
+      0.00026518840865542495,
+      0.003880850702507626
+    ],
+    "n_questions": 9
+  },
+  "estimated_squared_shift": {
+    "estimate": 0.0007992120875252621,
+    "ci95": [
+      7.067374406589399e-05,
+      0.0017316542226407277
+    ],
+    "n_questions": 9
+  },
+  "independent_gap_variance": {
+    "estimate": 0.0036783862228746775,
+    "ci95": [
+      0.00010490886723553693,
+      0.009358630683024727
+    ],
+    "n_questions": 9
+  },
+  "matched_gap_variance": {
+    "estimate": 0.0069579387380017165,
+    "ci95": [
+      5.697080117684823e-05,
+      0.017135520264848516
+    ],
+    "n_questions": 9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-12T06:16:14.260024+00:00",
+  "reason": "serial throughput degraded by a concurrent independent p5 CPU job; no result-dependent change",
+  "previous_freeze": "0c9ac86bf914723f54a7bb84ac1d7e6b6e355de93a481fdc0299bcf1ebea7668",
+  "source_sha256": "a7cfd27c5de21893b3c34a36c41c781d78b76c66e328cdc00072ae68dd3dd72d",
+  "changes": {
+    "server_parallel_slots": 4,
+    "server_total_context": 16384,
+    "per_slot_context": 4096,
+    "client_workers": 4
+  },
+  "unchanged": [
+    "tasks",
+    "budgets",
+    "checkpoint rules",
+    "models",
+    "policies",
+    "seeds",
+    "K candidates",
+    "gate thresholds",
+    "outcomes already journaled"
+  ],
+  "record_policy": "append missing branch keys only; initial serial records retained",
+  "heldout_inference": false
+}

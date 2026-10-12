@@ -1,0 +1,124 @@
+{
+  "raw_journal_sha256": "908243778c7ba7473a4789d97b23ac44a135db0af999351a763216eb98d7a314",
+  "raw_journal_unchanged": true,
+  "primary_changes": [
+    {
+      "checkpoint": "5a85ea095542994775f606a8:0",
+      "K": 3,
+      "before": 0.05555555555555556,
+      "after": 0.05555555555555556
+    },
+    {
+      "checkpoint": "5adbf0a255429947ff17385a:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "5a8c7595554299585d9e36b6:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+      "K": 3,
+      "before": 0.05555555555555556,
+      "after": 0.05555555555555556
+    },
+    {
+      "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__481349_302087:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__252311_366220:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__460946_294723:0",
+      "K": 3,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "5a85ea095542994775f606a8:0",
+      "K": 5,
+      "before": 0.030000000000000002,
+      "after": 0.030000000000000002
+    },
+    {
+      "checkpoint": "5adbf0a255429947ff17385a:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "5a8c7595554299585d9e36b6:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+      "K": 5,
+      "before": 0.036666666666666674,
+      "after": 0.036666666666666674
+    },
+    {
+      "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__481349_302087:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__252311_366220:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "checkpoint": "double__460946_294723:0",
+      "K": 5,
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "reason": "Independent verifier detected a priced matched-variance discrepancy; journal order differed across actions.",
+  "correction": "Align every paired contrast by replicate ID. Primary frozen collector source remains unchanged; secondary analysis sorts replicates.",
+  "initial_analysis_sha256": {
+    "checkpoint_metrics.json": "495a5eba267bcdc49b8a732f2d43a5c3a70191be888d968fda9641d27ca2e364",
+    "checkpoint_metrics_K3_K5.json": "36c05f8b3bef301b4f2165a4eb654ede7f2b172dfa9cfab08b19dbdf073e69b1",
+    "summary.json": "1cd8256763f34675941a1e888c07fa8f3c12ca8ffb59d643306c24ac35a220e2",
+    "utility_checkpoint_metrics.json": "806b295c22b08ed78450d5db6bc3db91e40bcae0dcb556f0dbbef8a64e797b5b",
+    "utility_summary.json": "bc4a30302b74cf9084c5ce3e311ba44941b0c36869c7858a990f1621a807ed31"
+  },
+  "source_sha256": "6a0e0cb1a1f9fa8292f11505a9591450c2fc689a794d52d9a1ed8340755147fb"
+}

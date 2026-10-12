@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-12T08:09:23.213400+00:00",
+  "branches": 1080,
+  "checkpoints": 9,
+  "physical_calls_this_invocation": 2418,
+  "physical_output_tokens_this_invocation": 118176,
+  "physical_generation_seconds_this_invocation": 26912.099570399674,
+  "runtime_amendment": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\runtime_amendment.json",
+  "server_recorded_generation_calls_all_attempts": 2618,
+  "server_recorded_output_tokens_all_attempts": 130935,
+  "server_recorded_generation_seconds_all_attempts": 27062.5454,
+  "timing_scope": "sum of server prompt+decode durations; includes failed setup and interrupted branch; excludes transport, startup, and non-generation work"
+}

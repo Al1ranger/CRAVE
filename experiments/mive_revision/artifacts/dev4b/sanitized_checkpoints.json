@@ -1,0 +1,128 @@
+[
+  {
+    "id": "5a85ea095542994775f606a8:0",
+    "task_id": "5a85ea095542994775f606a8",
+    "dataset": "HotpotQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "0f6db06db4f06447fc63959a5afb5d44ce1d04889075100cefc124d83319432c",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "5adbf0a255429947ff17385a:0",
+    "task_id": "5adbf0a255429947ff17385a",
+    "dataset": "HotpotQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "d0a819139e4f10d9c16b60325bbdb057fe9aa0a510721685997861c5e9fffe27",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "5a8c7595554299585d9e36b6:0",
+    "task_id": "5a8c7595554299585d9e36b6",
+    "dataset": "HotpotQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "7d746a2c1ecc7c50b6008f38060abb490a33eab49ff25d3aba2239303ed41598",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "f9dcb4a60bda11eba7f7acde48001122:0",
+    "task_id": "f9dcb4a60bda11eba7f7acde48001122",
+    "dataset": "2WikiMultiHopQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "ffbee922888190e3798ded636e82802bb8b876317215350ee580a3a19123f00f",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+    "task_id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+    "dataset": "2WikiMultiHopQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "2369a1a14e4568c0544a634b6d895a211f15c2b22a39e0cdf2dc905c920a5a3e",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "019bed300bde11eba7f7acde48001122:0",
+    "task_id": "019bed300bde11eba7f7acde48001122",
+    "dataset": "2WikiMultiHopQA",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "fc2f5f97a2f087860378d82544edc5028e5e51692396b477d47115d2a3fc9ebb",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "double__481349_302087:0",
+    "task_id": "double__481349_302087",
+    "dataset": "MuSiQue",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "27f4fe05170320228bafd8a093548a5680125fadd36adc213cb888864febc6d8",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "double__252311_366220:0",
+    "task_id": "double__252311_366220",
+    "dataset": "MuSiQue",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "406f870ea6b88f79e32b8315ed0391ce9aa3fd7cfb1f98a1924df59b61d7166f",
+    "candidate_answer_nonempty": true
+  },
+  {
+    "id": "double__460946_294723:0",
+    "task_id": "double__460946_294723",
+    "dataset": "MuSiQue",
+    "stage": 0,
+    "feasible": [
+      "THINK",
+      "RETRIEVE",
+      "VERIFY",
+      "STOP"
+    ],
+    "state_hash": "840806afaf45e24a016c52d5635a48a3cce15d07c91ad7c132a5700106f2665d",
+    "candidate_answer_nonempty": true
+  }
+]

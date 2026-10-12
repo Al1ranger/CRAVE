@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "numeric_checks": 723,
+  "resamples": 10000,
+  "input_mode": "full local branch journal",
+  "checks": [
+    "both K candidates",
+    "independent scalar reconstruction",
+    "manual Kendall tau-b pair counts",
+    "Welch stability",
+    "question-cluster bootstrap with declared RNG order",
+    "primary EM reversal endpoint constraint"
+  ],
+  "scope": "reconstruction from retained branch observations; no new inference or score edits"
+}

@@ -1,0 +1,73 @@
+{
+  "config": {
+    "created_utc": "2026-10-11T21:36:23.176488+00:00",
+    "scope": "exploratory development measurement; not a held-out or baseline eligibility certification",
+    "model": "Qwen3-4B-Q4_K_M",
+    "model_sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+    "controller_sha256": "9defdb47558904edee6fb0ab2ae75d8c746493accd1bd054071fd1d3b3f4f082",
+    "source_sha256": {
+      "crave\\agent\\environment.py": "0948e9c5f6041d5b54f79f928b74329e5bf57730950386004022e2680c259f6e",
+      "crave\\models\\backend.py": "22c1d652a6a3bbf964e6aef9f0aa2ab0163ed7966774311021076cbe76f311e1",
+      "crave\\baselines\\controllers.py": "551e31840e1c13696bdc90476954eda50153fac69a195a0b17ab211802ddcf35",
+      "crave\\evaluation\\task_metrics.py": "261af1da880416621b6fdddfc1492ba1a93e97f21e0e0e11af071e0224bc0c93",
+      "crave\\agent\\checkpoint.py": "0b51e5deb8951b29e8dcf33619db1d9caaf9b74b30b0478e2a5c6d11b08a6950",
+      "experiments\\mive_revision\\audit.py": "725a53cbb9a93edda3491f728f45d27d69cefd5fd06c18bbb81ec745eed139a6"
+    },
+    "tasks_sha256": "48d4c555398599b25e5a97abece2ebb250cee2651c2ae6fc754773a4710b58c1",
+    "corpus_sha256": "32a250ef76579b5c8ae068863eb8c92b3c7393555fa1e9203dd0b92a81d6f3e0",
+    "n_questions": 9,
+    "question_selection_seed": 20261011,
+    "prefix_seed": 17,
+    "budget": {
+      "tokens": 512,
+      "retrievals": 1,
+      "verifications": 1
+    },
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20
+    },
+    "think_reserve": 256,
+    "verify_reserve": 192,
+    "context_tokens": 1400,
+    "max_steps": 12,
+    "label_continuation": "mu0-v1",
+    "deployment_continuation": "legacy-CRAVE-17-lambda0.1",
+    "checkpoint_stages": [
+      "after THINK without retrieval",
+      "if variance gate fails also after RETRIEVE THINK"
+    ],
+    "gate": {
+      "maximum_fraction_zero_action_reward_variance": 0.9,
+      "reward": "normalized answer EM"
+    },
+    "replicate_sets": [
+      "ind_mu_A",
+      "ind_mu_B",
+      "ind_pi_A",
+      "ind_pi_B",
+      "matched_mu",
+      "matched_pi"
+    ],
+    "K_candidates": [
+      3,
+      5
+    ],
+    "stability": {
+      "argmax_agreement_min": 0.9,
+      "margin_halfwidth_max": 0.1,
+      "precision_fraction_min": 0.9
+    },
+    "bootstrap": {
+      "unit": "question; equal checkpoint weight within question",
+      "resamples": 10000,
+      "seed": 20261011
+    },
+    "matched_tape": "shared native sampler seed by generation-call position; no cross-hardware equality claim",
+    "cache": false,
+    "hardware": "Windows-11-10.0.26300-SP0",
+    "heldout_inference_authorized_by_this_config": false
+  },
+  "sha256": "0c9ac86bf914723f54a7bb84ac1d7e6b6e355de93a481fdc0299bcf1ebea7668"
+}

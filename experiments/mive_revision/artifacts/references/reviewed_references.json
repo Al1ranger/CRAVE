@@ -1,0 +1,278 @@
+{
+  "retained_title_review": [
+    {
+      "number": 1,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2005.11401",
+      "doi_title_verified": true
+    },
+    {
+      "number": 2,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2210.03629",
+      "doi_title_verified": true
+    },
+    {
+      "number": 3,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2508.17196",
+      "doi_title_verified": true
+    },
+    {
+      "number": 4,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2605.17672",
+      "doi_title_verified": true
+    },
+    {
+      "number": 5,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2607.01612",
+      "doi_title_verified": true
+    },
+    {
+      "number": 6,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2511.09803",
+      "doi_title_verified": true
+    },
+    {
+      "number": 7,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2602.01672",
+      "doi_title_verified": true
+    },
+    {
+      "number": 8,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2605.05701",
+      "doi_title_verified": true
+    },
+    {
+      "number": 9,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2609.00967",
+      "doi_title_verified": true
+    },
+    {
+      "number": 10,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.18653/v1/D18-1259",
+      "doi_title_verified": true
+    },
+    {
+      "number": 11,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.1162/tacl_a_00475",
+      "doi_title_verified": true
+    },
+    {
+      "number": 12,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.18653/v1/2020.coling-main.580",
+      "doi_title_verified": true
+    },
+    {
+      "number": 13,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 14,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 15,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 16,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.1603.08983",
+      "doi_title_verified": true
+    },
+    {
+      "number": 17,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2107.05407",
+      "doi_title_verified": true
+    },
+    {
+      "number": 18,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 19,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2310.11511",
+      "doi_title_verified": true
+    },
+    {
+      "number": 20,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2203.11171",
+      "doi_title_verified": true
+    },
+    {
+      "number": 21,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.1162/tacl_a_00638",
+      "doi_title_verified": true
+    },
+    {
+      "number": 22,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 23,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.1038/s41586-024-07421-0",
+      "doi_title_verified": true
+    },
+    {
+      "number": 24,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.1214/aos/1176344552",
+      "doi_title_verified": true
+    },
+    {
+      "number": 25,
+      "title_matches_supplied": false,
+      "status": "PRIMARY_PAGE_UNRESOLVED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 26,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.2202/1544-6115.1585",
+      "doi_title_verified": true
+    },
+    {
+      "number": 27,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 28,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 29,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 31,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2112.09118",
+      "doi_title_verified": true
+    },
+    {
+      "number": 32,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": null,
+      "doi_title_verified": false
+    },
+    {
+      "number": 33,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2412.15115",
+      "doi_title_verified": true
+    },
+    {
+      "number": 34,
+      "title_matches_supplied": true,
+      "status": "TITLE_VERIFIED",
+      "doi": "10.48550/arXiv.2407.21783",
+      "doi_title_verified": true
+    }
+  ],
+  "supplementary_dois": [
+    {
+      "number": 27,
+      "doi": "10.18653/v1/2024.naacl-long.389",
+      "expected_title": "Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity",
+      "checked_utc": "2026-10-12T06:39:44.278282+00:00",
+      "registered_title": "Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity",
+      "title_matches": true,
+      "status": "VERIFIED"
+    },
+    {
+      "number": 28,
+      "doi": "10.18653/v1/2023.emnlp-main.495",
+      "expected_title": "Active Retrieval Augmented Generation",
+      "checked_utc": "2026-10-12T06:39:44.281217+00:00",
+      "registered_title": "Active Retrieval Augmented Generation",
+      "title_matches": true,
+      "status": "VERIFIED"
+    },
+    {
+      "number": 32,
+      "doi": "10.18653/v1/2022.naacl-main.272",
+      "expected_title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+      "checked_utc": "2026-10-12T06:39:44.282253+00:00",
+      "registered_title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+      "title_matches": true,
+      "status": "VERIFIED"
+    },
+    {
+      "number": 35,
+      "doi": "10.1080/01621459.1963.10500830",
+      "expected_title": "Probability Inequalities for Sums of Bounded Random Variables",
+      "checked_utc": "2026-10-12T06:39:44.294381+00:00",
+      "registered_title": "Probability Inequalities for Sums of Bounded Random Variables",
+      "title_matches": true,
+      "status": "VERIFIED"
+    }
+  ],
+  "notes": [
+    "Holm JSTOR page returned Client Challenge; no DOI is asserted for that reference.",
+    "Altman book metadata verified at the publisher; no book DOI is asserted.",
+    "ACL supplementary DOIs also appear in the retained publisher pages for references 27, 28, and 32."
+  ]
+}

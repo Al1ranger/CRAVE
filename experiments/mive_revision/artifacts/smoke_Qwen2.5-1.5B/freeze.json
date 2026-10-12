@@ -1,0 +1,45 @@
+{
+  "config": {
+    "created_utc": "2026-10-12T06:34:29.497454+00:00",
+    "model": "Qwen2.5-1.5B",
+    "model_manifest_sha256": "93d595119bee4def36d39294420642e907740983692e719222bb1eae2a41263e",
+    "tasks_sha256": "72253533b8aa5fb799be4af18d58a7c4949baea42c154c7b9ed4458873b98cc2",
+    "corpus_sha256": "32a250ef76579b5c8ae068863eb8c92b3c7393555fa1e9203dd0b92a81d6f3e0",
+    "task_ids": [
+      "5a85ea095542994775f606a8",
+      "f9dcb4a60bda11eba7f7acde48001122",
+      "double__481349_302087"
+    ],
+    "question_selection": "first previously frozen development question per dataset",
+    "seed": 17,
+    "budget": {
+      "tokens": 512,
+      "retrievals": 1,
+      "verifications": 1
+    },
+    "policies": [
+      "fixed",
+      "confidence"
+    ],
+    "confidence_threshold": 0.8,
+    "think_reserve": 256,
+    "verify_reserve": 192,
+    "context_tokens": 1400,
+    "max_steps": 12,
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20
+    },
+    "prompt": "native Qwen2.5 ChatML without Qwen3 thinking directives",
+    "cache": false,
+    "hardware": "CPU two threads, GPU layers zero",
+    "server_slots": 1,
+    "server_context": 4096,
+    "platform": "Windows-11-10.0.26300-SP0",
+    "scope": "development execution and accounting check; one question per dataset, one seed; no held-out efficacy or model-size inference",
+    "source_sha256": "1cb2ab90c2d72ada779cf6024f24b7de3ab2f7a8cd400b26eca563f422fe927e",
+    "heldout_inference": false
+  },
+  "sha256": "9f7acea6d8c8894b7b17bf8f6e4adcd60529dece8b517f8e412e8a57aec384f9"
+}

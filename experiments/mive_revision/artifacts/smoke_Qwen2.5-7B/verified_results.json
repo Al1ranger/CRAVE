@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "episodes": [
+    {
+      "task_id": "5a85ea095542994775f606a8",
+      "dataset": "HotpotQA",
+      "method": "fixed",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "task_score": 0.0,
+      "elapsed_seconds": 8.566141000017524,
+      "output_tokens": 196,
+      "retrievals": 1,
+      "verifications": 1,
+      "action_counts": {
+        "THINK": 2,
+        "RETRIEVE": 1,
+        "VERIFY": 1,
+        "STOP": 1
+      }
+    },
+    {
+      "task_id": "5a85ea095542994775f606a8",
+      "dataset": "HotpotQA",
+      "method": "confidence",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "task_score": 0.0,
+      "elapsed_seconds": 2.3211932000122033,
+      "output_tokens": 57,
+      "retrievals": 1,
+      "verifications": 0,
+      "action_counts": {
+        "THINK": 1,
+        "RETRIEVE": 1,
+        "VERIFY": 0,
+        "STOP": 1
+      }
+    },
+    {
+      "task_id": "f9dcb4a60bda11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "method": "fixed",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "task_score": 0.0,
+      "elapsed_seconds": 5.65317320000031,
+      "output_tokens": 134,
+      "retrievals": 1,
+      "verifications": 1,
+      "action_counts": {
+        "THINK": 2,
+        "RETRIEVE": 1,
+        "VERIFY": 1,
+        "STOP": 1
+      }
+    },
+    {
+      "task_id": "f9dcb4a60bda11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "method": "confidence",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "task_score": 0.0,
+      "elapsed_seconds": 3.641046600008849,
+      "output_tokens": 86,
+      "retrievals": 1,
+      "verifications": 0,
+      "action_counts": {
+        "THINK": 2,
+        "RETRIEVE": 1,
+        "VERIFY": 0,
+        "STOP": 1
+      }
+    },
+    {
+      "task_id": "double__481349_302087",
+      "dataset": "MuSiQue",
+      "method": "fixed",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.5,
+      "task_score": 0.0,
+      "elapsed_seconds": 5.525080999999773,
+      "output_tokens": 120,
+      "retrievals": 1,
+      "verifications": 1,
+      "action_counts": {
+        "THINK": 2,
+        "RETRIEVE": 1,
+        "VERIFY": 1,
+        "STOP": 1
+      }
+    },
+    {
+      "task_id": "double__481349_302087",
+      "dataset": "MuSiQue",
+      "method": "confidence",
+      "seed": 17,
+      "exact_match": 0.0,
+      "f1": 0.5,
+      "task_score": 0.0,
+      "elapsed_seconds": 1.7392145000048913,
+      "output_tokens": 38,
+      "retrievals": 1,
+      "verifications": 0,
+      "action_counts": {
+        "THINK": 1,
+        "RETRIEVE": 1,
+        "VERIFY": 0,
+        "STOP": 1
+      }
+    }
+  ],
+  "budget_violations": 0,
+  "physical_calls_this_invocation": 13,
+  "physical_output_tokens_this_invocation": 631,
+  "request_seconds_this_invocation": 26.025161599973217,
+  "scope": "development execution and accounting check; one question per dataset, one seed; no held-out efficacy or model-size inference"
+}

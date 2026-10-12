@@ -1,0 +1,528 @@
+{
+  "3": [
+    {
+      "checkpoint": "5a85ea095542994775f606a8:0",
+      "task_id": "5a85ea095542994775f606a8",
+      "dataset": "HotpotQA",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.05555555555555556,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "5adbf0a255429947ff17385a:0",
+      "task_id": "5adbf0a255429947ff17385a",
+      "dataset": "HotpotQA",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "5a8c7595554299585d9e36b6:0",
+      "task_id": "5a8c7595554299585d9e36b6",
+      "dataset": "HotpotQA",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+      "task_id": "f9dcb4a60bda11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+      "task_id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+      "dataset": "2WikiMultiHopQA",
+      "K": 3,
+      "signed_THINK_bias": -0.33333333333333337,
+      "absolute_discrepancy": 0.08333333333333334,
+      "argmax_change": 1.0,
+      "kendall_tau_b": 0.7745966692414834,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.027777777777777783,
+      "estimated_noise": 0.027777777777777783,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.05555555555555556,
+      "matched_gap_variance": 0.05555555555555556,
+      "action_values_mu": {
+        "THINK": 0.6666666666666666,
+        "RETRIEVE": 1.0,
+        "VERIFY": 1.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 1.0,
+        "RETRIEVE": 1.0,
+        "VERIFY": 1.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+      "task_id": "019bed300bde11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.041666666666666664,
+      "argmax_change": 1.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.006944444444444444,
+      "estimated_noise": 0.006944444444444444,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.01851851851851852,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.16666666666666666,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__481349_302087:0",
+      "task_id": "double__481349_302087",
+      "dataset": "MuSiQue",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__252311_366220:0",
+      "task_id": "double__252311_366220",
+      "dataset": "MuSiQue",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__460946_294723:0",
+      "task_id": "double__460946_294723",
+      "dataset": "MuSiQue",
+      "K": 3,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    }
+  ],
+  "5": [
+    {
+      "checkpoint": "5a85ea095542994775f606a8:0",
+      "task_id": "5a85ea095542994775f606a8",
+      "dataset": "HotpotQA",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.025,
+      "argmax_change": 1.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0025000000000000005,
+      "estimated_noise": 0.0025000000000000005,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.030000000000000002,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.1,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "5adbf0a255429947ff17385a:0",
+      "task_id": "5adbf0a255429947ff17385a",
+      "dataset": "HotpotQA",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "5a8c7595554299585d9e36b6:0",
+      "task_id": "5a8c7595554299585d9e36b6",
+      "dataset": "HotpotQA",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "f9dcb4a60bda11eba7f7acde48001122:0",
+      "task_id": "f9dcb4a60bda11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "a7b9672009c311ebbdb0ac1f6bf848b6:0",
+      "task_id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+      "dataset": "2WikiMultiHopQA",
+      "K": 5,
+      "signed_THINK_bias": -0.19999999999999996,
+      "absolute_discrepancy": 0.04999999999999999,
+      "argmax_change": 1.0,
+      "kendall_tau_b": 0.7745966692414834,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.65,
+      "observed_squared_discrepancy": 0.009999999999999995,
+      "estimated_noise": 0.010000000000000002,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.03000000000000001,
+      "matched_gap_variance": 0.036666666666666674,
+      "action_values_mu": {
+        "THINK": 0.8,
+        "RETRIEVE": 1.0,
+        "VERIFY": 1.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 1.0,
+        "RETRIEVE": 1.0,
+        "VERIFY": 1.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "019bed300bde11eba7f7acde48001122:0",
+      "task_id": "019bed300bde11eba7f7acde48001122",
+      "dataset": "2WikiMultiHopQA",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.025,
+      "argmax_change": 1.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0025000000000000005,
+      "estimated_noise": 0.0025000000000000005,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.006666666666666668,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.1,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__481349_302087:0",
+      "task_id": "double__481349_302087",
+      "dataset": "MuSiQue",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__252311_366220:0",
+      "task_id": "double__252311_366220",
+      "dataset": "MuSiQue",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    },
+    {
+      "checkpoint": "double__460946_294723:0",
+      "task_id": "double__460946_294723",
+      "dataset": "MuSiQue",
+      "K": 5,
+      "signed_THINK_bias": 0.0,
+      "absolute_discrepancy": 0.0,
+      "argmax_change": 0.0,
+      "kendall_tau_b": null,
+      "THINK_STOP_rank_reversal": 0.0,
+      "behavioral_disagreement": 0.9,
+      "observed_squared_discrepancy": 0.0,
+      "estimated_noise": 0.0,
+      "estimated_squared_shift": 0.0,
+      "independent_gap_variance": 0.0,
+      "matched_gap_variance": 0.0,
+      "action_values_mu": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      },
+      "action_values_pi": {
+        "THINK": 0.0,
+        "RETRIEVE": 0.0,
+        "VERIFY": 0.0,
+        "STOP": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "path": "D:\\Study\\Papers\\p6\\MIVE_Verified_Manuscript.docx",
+  "paragraphs": 237,
+  "tables": 9,
+  "figures": 5,
+  "native_math": 85,
+  "source": "C:\\Users\\ehsan\\Downloads\\CRAVE_Revised_Manuscript (2).docx",
+  "source_sha256": "e5a65c035dc1e9d700c9e8294d053c2280d7d40df1fa63d0471f7a433eadac9e",
+  "input_preserved": true,
+  "requires_render_verification": true
+}

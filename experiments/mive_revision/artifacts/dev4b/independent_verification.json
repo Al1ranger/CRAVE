@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "branches": 1080,
+  "checkpoints": 9,
+  "questions": 9,
+  "budget_violations": 0,
+  "duplicate_primary_seeds": 0,
+  "scores_recomputed": 1080,
+  "distinct_primary_generation_seeds": 1731,
+  "checks": [
+    "frozen task, source, model and controller hashes",
+    "question text and ID disjoint from both legacy evaluations",
+    "checkpoint restore digest",
+    "terminal outcome",
+    "future resources",
+    "answer EM/F1",
+    "deterministic STOP with zero constrained-resource charge",
+    "action feasibility at intervention",
+    "complete matrix",
+    "disjoint primary seeds",
+    "shared CRN seeds"
+  ],
+  "limits": [
+    "Independent seed namespaces do not prove independence of backend pseudorandom streams.",
+    "No held-out efficacy or uniform policy-shift bound is certified.",
+    "Question-cluster intervals condition on observed finite-K estimates."
+  ]
+}

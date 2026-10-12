@@ -1,0 +1,62 @@
+[
+  {
+    "claim": "1.5B fixed-schedule baseline EM 0.25 / 0.275 and selected confidence threshold 0.5",
+    "reason": "User confirms the recovery package exists nowhere; no raw outcomes or freeze retained",
+    "replacement": "No verified result for that run; exclude its numerical claims"
+  },
+  {
+    "claim": "Six-episode CPU check with 859 generated tokens and all incorrect answers",
+    "reason": "Only source manuscript assertions, no execution artifacts",
+    "replacement": "Do not report as a completed experiment"
+  },
+  {
+    "claim": "Compact continuation-refresh training completed with 295 generation calls",
+    "reason": "Missing branch, generation and training ledgers",
+    "replacement": "Continuation refresh is proposed, with no verified held-out benefit"
+  },
+  {
+    "claim": "MIVE improves accuracy or efficiency versus legacy/confidence",
+    "reason": "No new trained MIVE policy with a frozen held-out comparison",
+    "replacement": "A policy-conditioned estimand and a development audit are implemented"
+  },
+  {
+    "claim": "7B or 1.5B held-out efficacy or model-size transfer",
+    "reason": "No sufficiently powered frozen held-out comparison for the additional backbones",
+    "replacement": "Retain completed frozen development execution checks separately, without model ranking or transfer claims"
+  },
+  {
+    "claim": "Three datasets with 300 held-out questions, three seeds and three caps",
+    "reason": "No completed official-release manifests, training/dev finalization, or full inference grid",
+    "replacement": "Legacy 40-question one-cap evaluation and fresh small development audit"
+  },
+  {
+    "claim": "Faithful Adaptive-RAG, Self-RAG or FLARE reproduction",
+    "reason": "No native classifier/reflection/draft pipeline reproduced with charged costs",
+    "replacement": "Conceptual comparison with explicit reproduction conditions"
+  },
+  {
+    "claim": "Hard mask, semantic penalty, direct/composite, refresh and label-coupling ablation benefits",
+    "reason": "Full requested matched-budget ablation grid not completed",
+    "replacement": "Only measured coupling behavior is reported; no component-level causal benefit"
+  },
+  {
+    "claim": "Noninferiority, savings, dev-powered sample size or a positive MIVE break-even count",
+    "reason": "Missing paired MIVE dev and held-out outcomes; legacy token savings are negative",
+    "replacement": "No NI claim; no positive finite legacy token break-even count"
+  },
+  {
+    "claim": "Official answer evaluator equivalence and full-Wikipedia RAG generalization",
+    "reason": "Bounded remapped exports and supplied-context retrieval; alias equivalence not verified",
+    "replacement": "Normalized answer EM/F1 in the declared supplied-context environment"
+  },
+  {
+    "claim": "Q1 acceptance readiness or reviewer-proof empirical conclusions",
+    "reason": "Scale, baselines, ablations and permanent archive remain incomplete",
+    "replacement": "Evidence-led methodological draft; submission needs remaining experiments and author confirmation"
+  },
+  {
+    "claim": "A deposited Zenodo DOI",
+    "reason": "No Zenodo deposit exists",
+    "replacement": "Prepared archive only; insert a DOI after actual deposition"
+  }
+]

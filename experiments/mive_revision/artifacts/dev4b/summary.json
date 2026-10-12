@@ -1,0 +1,137 @@
+{
+  "signed_THINK_bias": {
+    "estimate": -0.022222222222222216,
+    "ci95": [
+      -0.06666666666666665,
+      0.0
+    ],
+    "n_questions": 9
+  },
+  "absolute_discrepancy": {
+    "estimate": 0.01111111111111111,
+    "ci95": [
+      0.0,
+      0.02222222222222222
+    ],
+    "n_questions": 9
+  },
+  "argmax_change": {
+    "estimate": 0.3333333333333333,
+    "ci95": [
+      0.1111111111111111,
+      0.6666666666666666
+    ],
+    "n_questions": 9
+  },
+  "kendall_tau_b": {
+    "estimate": 0.7745966692414834,
+    "ci95": [
+      0.7745966692414834,
+      0.7745966692414834
+    ],
+    "n_questions": 1
+  },
+  "THINK_STOP_rank_reversal": {
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 9
+  },
+  "behavioral_disagreement": {
+    "estimate": 0.8166666666666668,
+    "ci95": [
+      0.7333333333333334,
+      0.8999999999999999
+    ],
+    "n_questions": 9
+  },
+  "observed_squared_discrepancy": {
+    "estimate": 0.0016666666666666661,
+    "ci95": [
+      0.0,
+      0.003888888888888888
+    ],
+    "n_questions": 9
+  },
+  "estimated_noise": {
+    "estimate": 0.001666666666666667,
+    "ci95": [
+      0.00027777777777777783,
+      0.00388888888888889
+    ],
+    "n_questions": 9
+  },
+  "estimated_squared_shift": {
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 9
+  },
+  "independent_gap_variance": {
+    "estimate": 0.0040740740740740754,
+    "ci95": [
+      0.0,
+      0.010740740740740745
+    ],
+    "n_questions": 9
+  },
+  "matched_gap_variance": {
+    "estimate": 0.0074074074074074086,
+    "ci95": [
+      0.0,
+      0.01814814814814815
+    ],
+    "n_questions": 9
+  },
+  "K_selection": {
+    "candidates": [
+      {
+        "K": 3,
+        "by_continuation": {
+          "mu": {
+            "argmax_agreement": 0.7777777777777778,
+            "precision_fraction": 0.8888888888888888
+          },
+          "pi": {
+            "argmax_agreement": 1.0,
+            "precision_fraction": 1.0
+          }
+        },
+        "passed": false
+      },
+      {
+        "K": 5,
+        "by_continuation": {
+          "mu": {
+            "argmax_agreement": 0.6666666666666666,
+            "precision_fraction": 0.7777777777777778
+          },
+          "pi": {
+            "argmax_agreement": 1.0,
+            "precision_fraction": 1.0
+          }
+        },
+        "passed": false
+      }
+    ],
+    "selected": null,
+    "reported_K": 5,
+    "exploratory_if_failed": true
+  },
+  "counts": {
+    "branches": 1080,
+    "checkpoints": 9,
+    "questions": 9
+  },
+  "variance_gate": {
+    "n_checkpoints": 9,
+    "n_identical_action_means": 7,
+    "fraction": 0.7777777777777778,
+    "passed": true,
+    "definition": "K=5 action mean normalized EM under independent mu A; development only"
+  }
+}

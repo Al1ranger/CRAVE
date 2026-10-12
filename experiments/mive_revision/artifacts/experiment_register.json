@@ -1,0 +1,159 @@
+[
+  {
+    "experiment": "Fresh development baseline and initial serial continuation/coupling collection",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/audit.py run",
+    "seed": "prefix 17; selection/bootstrap 20261011; every branch seed in branches.jsonl",
+    "hardware": "NVIDIA GeForce RTX 3060 Laptop GPU 6144 MiB; Vulkan; four CPU threads; Windows; ctx4096; np1; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b",
+    "config_sha256": "0c9ac86bf914723f54a7bb84ac1d7e6b6e355de93a481fdc0299bcf1ebea7668",
+    "status": "serial invocation interrupted for concurrency amendment; journal retained",
+    "physical_scope": "See completion.json for all-attempt server totals, including discarded setup and interrupted work"
+  },
+  {
+    "experiment": "Resume unchanged continuation/coupling matrix with four slots",
+    "command": "$env:OPENBLAS_NUM_THREADS='1'; $env:OMP_NUM_THREADS='1'; $env:MKL_NUM_THREADS='1'; & crave/.venv/Scripts/python.exe experiments/mive_revision/parallel_audit.py",
+    "seed": "same branch seeds; deterministic execution-order namespace execution-order-20261011",
+    "hardware": "NVIDIA GeForce RTX 3060 Laptop GPU 6144 MiB; Vulkan1; four CPU inference threads; Windows; total ctx16384; four ctx4096 slots; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\runtime_amendment.json",
+    "status": "complete",
+    "physical": {
+      "status": "complete",
+      "finished_utc": "2026-10-12T08:09:23.213400+00:00",
+      "branches": 1080,
+      "checkpoints": 9,
+      "physical_calls_this_invocation": 2418,
+      "physical_output_tokens_this_invocation": 118176,
+      "physical_generation_seconds_this_invocation": 26912.099570399674,
+      "runtime_amendment": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\runtime_amendment.json",
+      "server_recorded_generation_calls_all_attempts": 2618,
+      "server_recorded_output_tokens_all_attempts": 130935,
+      "server_recorded_generation_seconds_all_attempts": 27062.5454,
+      "timing_scope": "sum of server prompt+decode durations; includes failed setup and interrupted branch; excludes transport, startup, and non-generation work"
+    }
+  },
+  {
+    "experiment": "Primary answer-value analysis and question bootstrap",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/audit.py analyze",
+    "seed": "20261011; 10000 question-cluster resamples",
+    "hardware": "CPU, NumPy/SciPy; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\summary.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Secondary bounded utility and variance analysis",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/analyze_utility.py",
+    "seed": "20261011; 10000 question-cluster resamples",
+    "hardware": "CPU, NumPy/SciPy; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\utility_summary.json",
+    "status": "complete; analysis amendment during dev collection"
+  },
+  {
+    "experiment": "Fresh branch reconstruction",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/verify_audit.py",
+    "seed": "none; reconstructs retained outcomes",
+    "hardware": "CPU; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\independent_verification.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Archival full-result reconstruction",
+    "command": "crave/.venv/Scripts/python.exe tmp/audit_all_results.py",
+    "seed": "retained historical analysis seeds",
+    "hardware": "CPU; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\tmp\\full_manuscript_assets\\comprehensive_result_audit.json",
+    "status": "complete; no fresh inference"
+  },
+  {
+    "experiment": "Archival quality and every recorded resource",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/prepare_evidence.py",
+    "seed": "20261011 bootstrap",
+    "hardware": "CPU; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\archival_reanalysis.json",
+    "status": "complete; no fresh inference"
+  },
+  {
+    "experiment": "Official 7B and 1.5B model acquisition",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/download_models.py",
+    "seed": "none",
+    "hardware": "network and local disk; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts",
+    "status": "Checksum-verified: Qwen2.5-1.5B, Qwen2.5-7B; earlier failed network attempts retained"
+  },
+  {
+    "experiment": "Setup attempt 1",
+    "command": "audit.py run with failed_setup_freeze.json",
+    "seed": "17",
+    "hardware": "same local 4B GPU server; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\failed_setup_freeze.json",
+    "status": "failed after one fixed-schedule trajectory, incompatible return unpacking; no outcome included",
+    "server_recorded_generation_calls": 3,
+    "server_recorded_output_tokens": 194,
+    "generation_timing_scope": "first three print_timing blocks in crave/runs/server.stderr.log; transport/wall overhead unavailable"
+  },
+  {
+    "experiment": "Earlier pre-generation setup",
+    "command": "audit.py prepare/run before executor API fixes",
+    "seed": "17",
+    "hardware": "CPU only before inference; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\pre_execution_freeze_superseded_2.json",
+    "status": "failed before generation; Budget mapping API mismatch; superseded configs retained"
+  },
+  {
+    "experiment": "Matched replicate pairing correction",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/correct_pairing.py",
+    "seed": "20261011 for bootstrap analyses; none for deterministic checks",
+    "hardware": "CPU; see hardware_environment.json; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\pairing_correction.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Independent statistical reconstruction",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/verify_statistics.py",
+    "seed": "20261011 for bootstrap analyses; none for deterministic checks",
+    "hardware": "CPU; see hardware_environment.json; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\statistics_verification.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Offline audit resource analysis",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/cost_analysis.py",
+    "seed": "20261011 for bootstrap analyses; none for deterministic checks",
+    "hardware": "CPU; see hardware_environment.json; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\offline_audit_cost.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Homogeneous-runtime coupling sensitivity",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/runtime_sensitivity.py",
+    "seed": "20261011 for bootstrap analyses; none for deterministic checks",
+    "hardware": "CPU; see hardware_environment.json; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\runtime_sensitivity.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Physical timing reconstruction",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/timing_ledger.py",
+    "seed": "20261011 for bootstrap analyses; none for deterministic checks",
+    "hardware": "CPU; see hardware_environment.json; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\dev4b\\numeric_server_timings.json",
+    "status": "complete"
+  },
+  {
+    "experiment": "Qwen2.5-1.5B frozen development execution check",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/backbone_smoke.py Qwen2.5-1.5B prepare\ncrave/.venv/Scripts/python.exe experiments/mive_revision/backbone_smoke.py Qwen2.5-1.5B run",
+    "seed": "17; one previously frozen question per dataset; two fixed policies",
+    "hardware": "CPU two threads, GPU layers zero; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\smoke_Qwen2.5-1.5B",
+    "status": "complete; six development episodes; no held-out efficacy claim",
+    "config_sha256": "9f7acea6d8c8894b7b17bf8f6e4adcd60529dece8b517f8e412e8a57aec384f9"
+  },
+  {
+    "experiment": "Qwen2.5-7B frozen development execution check",
+    "command": "crave/.venv/Scripts/python.exe experiments/mive_revision/backbone_smoke.py Qwen2.5-7B prepare\ncrave/.venv/Scripts/python.exe experiments/mive_revision/backbone_smoke.py Qwen2.5-7B run",
+    "seed": "17; one previously frozen question per dataset; two fixed policies",
+    "hardware": "RTX 3060 Laptop 6144 MiB, Vulkan1, four CPU threads; host AMD Ryzen 5 6600H with Radeon Graphics",
+    "artifact": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\smoke_Qwen2.5-7B",
+    "status": "complete; six development episodes; no held-out efficacy claim",
+    "config_sha256": "ffd5deed1e8d8a8f045c82b971eb4ebbae522f08571a053a36528a5c28f456b8"
+  }
+]

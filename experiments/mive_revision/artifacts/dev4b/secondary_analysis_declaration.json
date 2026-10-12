@@ -1,0 +1,14 @@
+{
+  "config": {
+    "created_utc": "2026-10-11T21:49:36.402116+00:00",
+    "stage": "analysis amendment during development collection; no held-out inference",
+    "objective": "EM - .1*(future_output_tokens/4096 + future_retrievals/4 + future_verifications/2)",
+    "prices_fixed_from": "legacy FROZEN_PILOT_CONFIG.json lambda .1 and references (4096,4,2)",
+    "latency_excluded": true,
+    "return_range_bound": 1.0875,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261011,
+    "script_sha256": "64335935ac65635696a9fce9c0c3b280dcfede2ab49862c811e12a123d13b28e"
+  },
+  "sha256": "fb782645fedad9fa6dff3f701f2b43cb999afb4bf9b8c8dc750b75606e4ad7d5"
+}

@@ -1,0 +1,41 @@
+{
+  "questions": 9,
+  "branches": 1080,
+  "resources": {
+    "generated_tokens": {
+      "observed_total": 128672.0,
+      "mean_per_question": 14296.888888888889,
+      "mean_per_question_ci95": [
+        12820.663888888888,
+        15826.78611111111
+      ]
+    },
+    "retrieval_calls": {
+      "observed_total": 570.0,
+      "mean_per_question": 63.333333333333336,
+      "mean_per_question_ci95": [
+        56.55555555555556,
+        71.11111111111111
+      ]
+    },
+    "verification_calls": {
+      "observed_total": 478.0,
+      "mean_per_question": 53.111111111111114,
+      "mean_per_question_ci95": [
+        50.888888888888886,
+        56.55555555555556
+      ]
+    },
+    "logical_seconds": {
+      "observed_total": 28983.56557940092,
+      "mean_per_question": 3220.3961754889915,
+      "mean_per_question_ci95": [
+        2842.1297374149335,
+        3623.442947993492
+      ]
+    }
+  },
+  "scope": "future charges in completed audit branches only; prefixes, baselines, setup and interrupted work excluded",
+  "interval_scope": "bootstrap interval for mean audit cost per question, not uncertainty in the observed total",
+  "break_even": "No MIVE deployment savings measured; no new MIVE break-even estimate. Legacy token savings are negative."
+}

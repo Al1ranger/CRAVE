@@ -1,0 +1,22 @@
+[
+  {
+    "path": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\source_snapshots\\audit_initial_freeze.py",
+    "sha256": "725a53cbb9a93edda3491f728f45d27d69cefd5fd06c18bbb81ec745eed139a6"
+  },
+  {
+    "path": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\source_snapshots\\parallel_audit_runtime_amendment.py",
+    "sha256": "a7cfd27c5de21893b3c34a36c41c781d78b76c66e328cdc00072ae68dd3dd72d"
+  },
+  {
+    "path": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\source_snapshots\\analyze_utility_initial_declaration.py",
+    "sha256": "64335935ac65635696a9fce9c0c3b280dcfede2ab49862c811e12a123d13b28e"
+  },
+  {
+    "path": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\source_snapshots\\backbone_smoke_1_5B_freeze.py",
+    "sha256": "1cb2ab90c2d72ada779cf6024f24b7de3ab2f7a8cd400b26eca563f422fe927e"
+  },
+  {
+    "path": "D:\\Study\\Papers\\p6\\experiments\\mive_revision\\artifacts\\source_snapshots\\backbone_smoke_7B_freeze.py",
+    "sha256": "630459c7e4a648cc07666d39c57c8b5880dea2ea8b9b0095632bcff996a2931c"
+  }
+]
